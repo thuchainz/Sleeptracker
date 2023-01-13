@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="cancel()">Cancel</ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="save()">Save</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="ion-padding">
+    <ion-datetime id="datetime" max="{{ maxTime }}" [(ngModel)]="sleepInput"></ion-datetime>
+  </div>
+  <div class="ion-padding" *ngIf="sleepStarted">
+    <ion-label>How was your sleep?</ion-label>
+    <ion-input placeholder="Enter notes" [(ngModel)]="sleepNotes"></ion-input>
+  </div>
+</ion-content>
