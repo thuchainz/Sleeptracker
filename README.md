@@ -11,6 +11,6 @@ Mobile app to track sleep and sleepiness using Ionic/Angular. Users can log over
 `ionic serve`
 
 # Preview
-![](https://github.com/thuchainz/Sleeptracker/blob/main/preview1.gif)
-![](https://github.com/thuchainz/Sleeptracker/blob/main/preview2.gif)
-![](https://github.com/thuchainz/Sleeptracker/blob/main/preview3.gif)
+<img src="/preview1.gif" width="250" height="250"/>
+<img src="/preview2.gif" width="250" height="250"/>
+<img src="/preview3.gif" width="250" height="250"/>
